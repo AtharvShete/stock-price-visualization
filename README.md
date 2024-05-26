@@ -22,7 +22,7 @@ This project is a web application that visualizes stock prices using data from t
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/stock-price-visualization.git
+git clone https://github.com/AtharvShete/stock-price-visualization.git
 cd stock-price-visualization
 ```
 
