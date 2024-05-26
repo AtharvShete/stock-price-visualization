@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Price Visualization</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Stock Price Visualization</h1>
+        <div id="chartContainer"></div>
+        <div class="controls">
+            <label for="intervalSelect">Select Interval:</label>
+            <select id="intervalSelect">
+                <option value="5min">5 Minutes</option>
+                <option value="1hr">1 Hour</option>
+                <option value="5hr">5 Hours</option>
+                <option value="12hr">12 Hours</option>
+                <option value="1day">1 Day</option>
+            </select>
+            <button onclick="renderStockChart()">Update Chart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
